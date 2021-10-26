@@ -1,0 +1,33 @@
+a
+{
+    color:black;
+}
+a:hover
+{
+ color: rgba(33, 150, 243, 1);
+}
+.HERO-text
+{
+    color:white;
+}
+.HERO
+{
+    background-color: rgba(47,48,58);
+}
+.HERO-BUTTON
+{
+    background-color: rgba(33, 150, 243, 1);
+    color:white;
+}
+.chemzanimaemsya
+{
+    text-align: center;
+}
+.nashakomanda
+{
+    text-align: center;
+}
+.podval
+{
+    background-color: rgba(47,48,58);
+}
