@@ -1,3 +1,10 @@
+body
+{
+    font-family: 'Roboto', sans-serif;
+    color:rgba(33,33,33);
+    font-size: 14px;
+    line-height:1.5;
+}
 a
 {
     color:black;
@@ -6,28 +13,100 @@ a:hover
 {
  color: rgba(33, 150, 243, 1);
 }
+h3
+{
+    color:rgba(33,33,33);
+    font-weight: bold;
+
+}
+p
+{
+    color: rgba(117,117,117);
+    font-weight: normal;
+}
+footer
+{
+    background-color: rgba(47,48,58);
+    font-weight:normal;
+}
+h1
+{
+    font-weight: bolder;
+}
+h2
+{
+    font-weight: bold;
+}
 .HERO-text
 {
     color:white;
+    font-size: 44px;
+    line-height: 1.36;
 }
 .HERO
 {
     background-color: rgba(47,48,58);
+    text-align: center;
+    
 }
 .HERO-BUTTON
 {
     background-color: rgba(33, 150, 243, 1);
     color:white;
+    cursor:pointer;
+    font-size: 16px;
+    cursor:pointer;
+}
+.HERO-BUTTON:hover
+{
+    background-color: rgba(33, 150, 243, 1);
+    color:white;
+    cursor:pointer;
+
 }
 .chemzanimaemsya
 {
     text-align: center;
+    font-size: 36px;
 }
 .nashakomanda
 {
     text-align: center;
+    font-size: 36px;
 }
-.podval
+
+.menu-KNOPKA
 {
-    background-color: rgba(47,48,58);
+    line-height:1.625;
+    cursor:pointer;
+}
+.menu-KNOPKA:hover
+{
+    cursor:pointer;
+    background-color: rgba(33, 150, 243, 1);
+    color : rgba(245,244,250);
+    border: 0cm; 
+    
+}
+.menu
+{
+    
+    text-align: center;
+}   
+
+.KNOPKA
+{
+    font-size: 16px;
+}
+.abzac
+{
+    line-height:1.71428571429;
+}
+.portfolio
+{
+    line-height: 2;
+}
+.emblema
+{
+    font-weight: bold;
 }
