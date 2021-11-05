@@ -8,6 +8,7 @@ body
 a
 {
     color:black;
+    text-decoration: none;
 }
 a:hover
 {
@@ -31,25 +32,29 @@ footer
 }
 h1
 {
-    font-weight: bolder;
+    font-weight:bolder;
 }
 h2
 {
     font-weight: bold;
 }
-.HERO-text
+li
+{
+    list-style-type: none;
+}
+.hero-text
 {
     color:white;
     font-size: 44px;
     line-height: 1.36;
 }
-.HERO
+.hero
 {
     background-color: rgba(47,48,58);
     text-align: center;
     
 }
-.HERO-BUTTON
+.hero-BUTTON
 {
     background-color: rgba(33, 150, 243, 1);
     color:white;
@@ -57,7 +62,7 @@ h2
     font-size: 16px;
     cursor:pointer;
 }
-.HERO-BUTTON:hover
+.hero-BUTTON:hover
 {
     background-color: rgba(33, 150, 243, 1);
     color:white;
@@ -75,12 +80,12 @@ h2
     font-size: 36px;
 }
 
-.menu-KNOPKA
+.menu-knopka
 {
     line-height:1.625;
     cursor:pointer;
 }
-.menu-KNOPKA:hover
+.menu-knopka:hover
 {
     cursor:pointer;
     background-color: rgba(33, 150, 243, 1);
@@ -94,7 +99,7 @@ h2
     text-align: center;
 }   
 
-.KNOPKA
+.knopka
 {
     font-size: 16px;
 }
@@ -109,4 +114,6 @@ h2
 .emblema
 {
     font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+
 }
